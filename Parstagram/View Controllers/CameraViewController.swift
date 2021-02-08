@@ -39,6 +39,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
+    @IBAction func onTap(_ sender: Any) {
+        view.endEditing(true)
+    }
+    
+    
     @IBAction func onCamera(_ sender: Any) {
         
         let picker = UIImagePickerController()

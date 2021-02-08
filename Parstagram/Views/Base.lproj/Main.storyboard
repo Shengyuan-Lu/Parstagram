@@ -21,6 +21,7 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Xqg-sj-k23">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="108"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EaC-so-E60">
                                         <rect key="frame" x="0.0" y="148" width="310" height="68"/>
@@ -245,6 +246,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="znK-uP-cXc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="h53-7F-acC" firstAttribute="top" secondItem="znK-uP-cXc" secondAttribute="top" constant="20" id="1o7-JF-rUF"/>
                             <constraint firstItem="h53-7F-acC" firstAttribute="leading" secondItem="znK-uP-cXc" secondAttribute="leading" constant="20" id="COj-yx-wwS"/>
@@ -256,6 +258,9 @@
                             <constraint firstItem="znK-uP-cXc" firstAttribute="trailing" secondItem="OM1-Av-hrB" secondAttribute="trailing" constant="20" id="ktQ-1W-j7u"/>
                             <constraint firstItem="znK-uP-cXc" firstAttribute="trailing" secondItem="TMJ-ZI-1XV" secondAttribute="trailing" constant="50" id="zTl-uD-vIx"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="p1A-dm-Y4s" appends="YES" id="MO2-jU-bar"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="commentTextField" destination="OM1-Av-hrB" id="cSv-MN-tCO"/>
@@ -266,6 +271,11 @@
                 <tapGestureRecognizer id="zFi-17-ph3">
                     <connections>
                         <action selector="onCamera:" destination="c6M-u5-vpm" id="VaQ-Hc-rfL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="p1A-dm-Y4s">
+                    <connections>
+                        <action selector="onTap:" destination="c6M-u5-vpm" id="aVD-m6-vOi"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
