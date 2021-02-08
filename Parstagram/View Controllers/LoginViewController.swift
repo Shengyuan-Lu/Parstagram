@@ -17,6 +17,12 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        usernameField.text?.removeAll()
+        passwordField.text?.removeAll()
+    }
+    
     @IBAction func loginButtonTapped(_ sender: UIButton) {
         let username = usernameField.text ?? ""
         let password = passwordField.text ?? ""
