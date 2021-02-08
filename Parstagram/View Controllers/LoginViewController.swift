@@ -10,23 +10,12 @@ import Parse
 
 class LoginViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    
-    
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
         let username = usernameField.text ?? ""

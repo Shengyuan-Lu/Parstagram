@@ -39,6 +39,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
+    
+    @IBAction func backButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
     }

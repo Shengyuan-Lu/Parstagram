@@ -192,6 +192,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Instagram" id="yan-S9-d62">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="5Jc-PF-s3X">
+                            <connections>
+                                <action selector="logoutButtonTapped:" destination="4ci-I8-hPE" id="gSI-Nd-aUr"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Add" image="insta_camera_btn" landscapeImage="insta_camera_btn" largeContentSizeImage="insta_camera_btn" id="QIt-zl-e9c">
                             <connections>
                                 <segue destination="c6M-u5-vpm" kind="presentation" id="2xI-M4-m2Y"/>
@@ -243,18 +248,28 @@
                                     <action selector="submitButtonTapped:" destination="c6M-u5-vpm" eventType="touchUpInside" id="wyN-HD-HP3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSP-eB-TSh">
+                                <rect key="frame" x="30" y="588" width="330" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="c6M-u5-vpm" eventType="touchUpInside" id="mWK-ha-IzS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="znK-uP-cXc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="h53-7F-acC" firstAttribute="top" secondItem="znK-uP-cXc" secondAttribute="top" constant="20" id="1o7-JF-rUF"/>
+                            <constraint firstItem="znK-uP-cXc" firstAttribute="trailing" secondItem="VSP-eB-TSh" secondAttribute="trailing" constant="30" id="ADQ-5d-Sno"/>
                             <constraint firstItem="h53-7F-acC" firstAttribute="leading" secondItem="znK-uP-cXc" secondAttribute="leading" constant="20" id="COj-yx-wwS"/>
+                            <constraint firstItem="VSP-eB-TSh" firstAttribute="top" secondItem="TMJ-ZI-1XV" secondAttribute="bottom" constant="20" id="E3A-20-uYc"/>
                             <constraint firstItem="OM1-Av-hrB" firstAttribute="top" secondItem="h53-7F-acC" secondAttribute="bottom" constant="40" id="Gds-3v-0jM"/>
                             <constraint firstItem="OM1-Av-hrB" firstAttribute="leading" secondItem="znK-uP-cXc" secondAttribute="leading" constant="20" id="JpX-5X-HcC"/>
                             <constraint firstItem="TMJ-ZI-1XV" firstAttribute="top" secondItem="OM1-Av-hrB" secondAttribute="bottom" constant="30" id="KNM-3f-nj6"/>
                             <constraint firstItem="TMJ-ZI-1XV" firstAttribute="leading" secondItem="znK-uP-cXc" secondAttribute="leading" constant="50" id="KvV-X6-fbr"/>
                             <constraint firstItem="znK-uP-cXc" firstAttribute="trailing" secondItem="h53-7F-acC" secondAttribute="trailing" constant="20" id="LWz-DF-tKF"/>
+                            <constraint firstItem="VSP-eB-TSh" firstAttribute="leading" secondItem="znK-uP-cXc" secondAttribute="leading" constant="30" id="Uxh-LW-ARU"/>
                             <constraint firstItem="znK-uP-cXc" firstAttribute="trailing" secondItem="OM1-Av-hrB" secondAttribute="trailing" constant="20" id="ktQ-1W-j7u"/>
                             <constraint firstItem="znK-uP-cXc" firstAttribute="trailing" secondItem="TMJ-ZI-1XV" secondAttribute="trailing" constant="50" id="zTl-uD-vIx"/>
                         </constraints>

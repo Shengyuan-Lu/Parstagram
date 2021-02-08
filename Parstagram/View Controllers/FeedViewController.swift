@@ -11,16 +11,16 @@ import AlamofireImage
 
 class FeedViewController: UIViewController {
     
+    var posts = [PFObject]()
     
     @IBOutlet weak var feedTableView: UITableView!
-    
-    var posts = [PFObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         feedTableView.delegate = self
         feedTableView.dataSource = self
+        feedTableView.allowsSelection = false
         
     }
     
@@ -40,7 +40,12 @@ class FeedViewController: UIViewController {
         }
         
     }
-
+    
+    
+    @IBAction func logoutButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
 
 extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
