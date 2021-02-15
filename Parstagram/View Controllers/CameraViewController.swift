@@ -1,10 +1,3 @@
-//
-//  CameraViewController.swift
-//  Parstagram
-//
-//  Created by Shengyuan Lu on 2/7/21.
-//
-
 import UIKit
 import AlamofireImage
 import Parse
@@ -39,7 +32,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
-    
     @IBAction func backButtonTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
@@ -70,7 +62,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         let size = CGSize(width: 300, height: 300)
         
-        let scaledImage = image.af.imageScaled(to: size)
+        let scaledImage = image.af.imageAspectScaled(toFill: size)
         
         imageview.image = scaledImage
         
@@ -79,8 +71,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
     }
     
 }
