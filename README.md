@@ -1,31 +1,8 @@
-# Parstagram - Part II
-
-This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
-
-Time spent: **4** hours spent in total
-
-## User Stories
-
-The following **required** functionality is completed:
-
-- [x] User stays logged in across restarts. (1pt)
-- [x] User can log out. (1pt)
-- [x] User can view comments on a post. (3pts)
-- [x] User can add a new comment. (5pts)
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='https://i.imgur.com/SSAHMBn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-# Parstagram - Part I
+# Parstagram
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
 
-Time spent: **4** hours spent in total
-
-## User Stories
+## Part 1 User Stories
 
 The following **required** functionality is completed:
 
@@ -35,8 +12,23 @@ The following **required** functionality is completed:
 - [X] User can take a photo, add a caption, and post it to the server. (3pt)
 - [X] User can view the last 20 posts. (4pts)
 
-## Video Walkthrough
+### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/iCs3gAU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Part 2 User Stories
+
+The following **required** functionality is completed:
+
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can log out. (1pt)
+- [x] User can view comments on a post. (3pts)
+- [x] User can add a new comment. (5pts)
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/SSAHMBn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
