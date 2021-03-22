@@ -13,7 +13,6 @@ The following functionality is completed:
 - [X] User can view the last 20 posts. (4pts)
 
 ### Video Walkthrough
-看看
 
 <img src="https://i.imgur.com/iCs3gAU.gif" width=500 />
 
@@ -27,4 +26,5 @@ The following functionality is completed:
 - [x] User can add a new comment. (5pts)
 
 ### Video Walkthrough
+
 <img src="https://i.imgur.com/SSAHMBn.gif" width=500 />
