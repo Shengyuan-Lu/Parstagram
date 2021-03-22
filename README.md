@@ -14,6 +14,7 @@ The following functionality is completed:
 
 ### Video Walkthrough
 看看
+
 <img src="https://i.imgur.com/iCs3gAU.gif" width=500 />
 
 ## Part 2 User Stories
