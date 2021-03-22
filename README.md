@@ -13,7 +13,8 @@ The following functionality is completed:
 - [X] User can view the last 20 posts. (4pts)
 
 ### Video Walkthrough
-<img src="https://i.imgur.com/iCs3gAU.gif" width=500>
+看看
+<img src="https://i.imgur.com/iCs3gAU.gif" width=500 />
 
 ## Part 2 User Stories
 
@@ -25,4 +26,4 @@ The following functionality is completed:
 - [x] User can add a new comment. (5pts)
 
 ### Video Walkthrough
-<img src="https://i.imgur.com/SSAHMBn.gif" width=500>
+<img src="https://i.imgur.com/SSAHMBn.gif" width=500 />
