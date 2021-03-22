@@ -15,7 +15,7 @@ The following functionality is completed:
 ### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="https://i.imgur.com/iCs3gAU.gif" width=500><br>
+<img src="https://i.imgur.com/iCs3gAU.gif" width=500>
 
 ## Part 2 User Stories
 
@@ -29,4 +29,4 @@ The following functionality is completed:
 ### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="https://i.imgur.com/SSAHMBn.gif" width=500><br>
+<img src="https://i.imgur.com/SSAHMBn.gif" width=500>
